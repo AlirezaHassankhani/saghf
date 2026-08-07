@@ -1,9 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 
+import { Home } from "../pages/home";
+
 function App() {
   return (
     <Routes>
-      <Route index element={<>this is a test</>} />
+      <Route index element={<Home />} />
     </Routes>
   );
 }

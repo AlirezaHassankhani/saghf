@@ -60,3 +60,7 @@
 @theme {
   --font-dana: "Dana", sans-serif;
 }
+
+body {
+  font-family: "Dana";
+}
