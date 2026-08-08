@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export function Header() {
   return (
     <>
-      <header className="sticky inset-0 w-full bg-background shadow-sm">
+      <header className="sticky z-40 inset-0 w-full bg-background shadow-sm">
         <div className="max-w-6xl mx-auto flex justify-between items-center py-2">
           <Link to="/">
             <img src="/logo.svg" alt="logo" width="40" />

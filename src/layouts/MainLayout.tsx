@@ -6,7 +6,7 @@ export function MainLayout() {
   return (
     <>
       <Header />
-      <main className="my-10">
+      <main>
         <Outlet />
       </main>
       <Footer />
