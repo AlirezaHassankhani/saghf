@@ -12,7 +12,7 @@ export function Footer() {
     <>
       <footer className="border-t border-border py-4">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <nav className="flex text-sm divide-x divide-foreground/30">
+          <nav className="flex text-sm font-medium divide-x divide-foreground/30">
             {navItems.map((item) => (
               <Link to={item.to} className="text-foreground hover:text-primary px-4">{item.title}</Link>
             ))}

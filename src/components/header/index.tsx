@@ -12,14 +12,14 @@ export function Header() {
 
           <nav className="flex gap-2">
             <Link to="#">
-              <div className="flex items-center gap-2 p-3 text-foreground bg-background rounded-md hover:bg-gray-100 hover:text-gray-800 transition-colors">
+              <div className="flex items-center gap-2 p-3 text-foreground bg-background rounded-md hover:bg-gray-100 hover:text-primary transition-colors">
                 <User size={18} />
                 <span className="text-sm font-medium">سقف من</span>
               </div>
             </Link>
 
             <Link to="#">
-              <div className="flex items-center gap-2 p-3 text-foreground bg-background rounded-md hover:bg-gray-100 hover:text-gray-800 transition-colors">
+              <div className="flex items-center gap-2 p-3 text-foreground bg-background rounded-md hover:bg-gray-100 hover:text-primary transition-colors">
                 <HelpCircle size={18} />
                 <span className="text-sm font-medium">پشتیبانی</span>
               </div>
