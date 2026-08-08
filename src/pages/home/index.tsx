@@ -1,6 +1,7 @@
 import { Search } from "lucide-react";
 import { Link } from "react-router-dom";
-import { Header } from "../../widgets/header";
+import { Header } from "../../components/header";
+import { Footer } from "../../components/footer";
 
 const cities = [
   "تهران",
@@ -18,7 +19,7 @@ const cities = [
 export function Home() {
   return (
     <>
-    <Header />
+      <Header />
       <div className="max-w-xl mx-auto">
         <img src="/logo.svg" alt="logo" width="60" className="mx-auto" />
 
@@ -64,13 +65,8 @@ export function Home() {
             ))}
           </ul>
         </div>
-
-        <div className="border-t border-border py-8 flex justify-center gap-4">
-            <img src="/1.png" alt="test" width="60" />
-            <img src="/2.png" alt="test" width="60" />
-            <img src="/3.png" alt="test" width="60" />
-        </div>
       </div>
+      <Footer />
     </>
   );
 }
