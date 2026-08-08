@@ -59,6 +59,13 @@
 
 @theme {
   --font-dana: "Dana", sans-serif;
+
+  --color-background: #ffffff;
+  --color-foreground: #71717a;
+
+  --color-primary: #c32e2e;
+
+  --color-border: #e4e4e7;
 }
 
 body {

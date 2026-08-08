@@ -22,7 +22,7 @@ export function Home() {
       <div className="max-w-xl mx-auto">
         <img src="/logo.svg" alt="logo" width="60" className="mx-auto" />
 
-        <nav className="flex justify-evenly border-b border-gray-300 my-8 text-gray-600 text-sm pb-3">
+        <nav className="flex justify-evenly border-b border-border my-8 text-foreground text-sm pb-3">
           <Link to="#">ثبت آگهی</Link>
           <Link to="#">درباره دیوار</Link>
           <Link to="#">دریافت برنامه</Link>
@@ -30,7 +30,7 @@ export function Home() {
           <Link to="#">پشتیبانی</Link>
         </nav>
 
-        <div className="mb-8 text-center text-gray-600 space-y-2">
+        <div className="mb-8 text-center text-foreground space-y-2">
           <p className="font-medium">سقف، پایگاه خرید و فروش بی واسطه!</p>
           <p className="text-sm">
             اگه دنبال چیزی هستی، شهرت رو انتخاب کن و تو دسته بندی ها به دنبالش
@@ -39,7 +39,7 @@ export function Home() {
           </p>
         </div>
 
-        <div className="border border-gray-300 rounded-md flex items-center pr-2 mb-8">
+        <div className="border border-border rounded-md flex items-center pr-2 mb-8">
           <Search size={18} />
           <input
             type="text"
@@ -56,7 +56,7 @@ export function Home() {
               <li className="block w-4/12">
                 <Link
                   to="#"
-                  className="w-full block text-center p-4 text-gray-600 hover:text-gray-800 transition-colors"
+                  className="w-full block text-center p-4 text-foreground hover:text-primary transition-colors"
                 >
                   {items}
                 </Link>
@@ -65,7 +65,7 @@ export function Home() {
           </ul>
         </div>
 
-        <div className="border-t border-gray-300 py-8 flex justify-center gap-4">
+        <div className="border-t border-border py-8 flex justify-center gap-4">
             <img src="/1.png" alt="test" width="60" />
             <img src="/2.png" alt="test" width="60" />
             <img src="/3.png" alt="test" width="60" />
