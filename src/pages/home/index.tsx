@@ -16,17 +16,23 @@ const cities = [
   "رشت",
 ];
 
+const navItems = [
+  { title: "ثبت آگهی", to: "#" },
+  { title: "درباره دیوار", to: "#" },
+  { title: "دریافت برنامه", to: "#" },
+  { title: "اتاق خبر", to: "#" },
+  { title: "پشتیبانی", to: "#" },
+];
+
 export function Home() {
   return (
     <div className="max-w-xl mx-auto">
       <img src="/logo.svg" alt="logo" width="60" className="mx-auto" />
 
-      <nav className="flex justify-evenly border-b border-border my-8 text-foreground text-sm pb-3">
-        <Link to="#">ثبت آگهی</Link>
-        <Link to="#">درباره دیوار</Link>
-        <Link to="#">دریافت برنامه</Link>
-        <Link to="#">اتاق خبر</Link>
-        <Link to="#">پشتیبانی</Link>
+      <nav className="flex justify-evenly border-b border-border my-8 text-sm font-medium pb-3">
+        {navItems.map((item) => (
+          <Link to={item.to} className="text-foreground hover:text-primary">{item.title}</Link>
+        ))}
       </nav>
 
       <div className="mb-8 text-center text-foreground space-y-2">
