@@ -61,7 +61,7 @@ export function Faq() {
             <div className="-z-10 absolute top-1/2 -translate-y-1/2 w-full h-[0.5px] bg-gray-200"></div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 mt-5">
+          <div className="grid grid-cols-2 gap-4 mt-10">
             <Article />
             <Article />
             <Article />
@@ -78,7 +78,7 @@ export function Faq() {
             <div className="-z-10 absolute top-1/2 -translate-y-1/2 w-full h-[0.5px] bg-gray-200"></div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 mt-5">
+          <div className="grid grid-cols-2 gap-4 mt-10">
             <Link to="#">
               <div className="flex items-center justify-between gap-2 border border-border rounded-md p-4 group">
                 <div className="flex items-center gap-4">
@@ -167,7 +167,7 @@ export function Faq() {
             <div className="-z-10 absolute top-1/2 -translate-y-1/2 w-full h-[0.5px] bg-gray-200"></div>
           </div>
 
-          <div className="mt-5">
+          <div className="mt-6">
             <Swiper spaceBetween={20} slidesPerView={4}>
               <SwiperSlide>
                 <div className="py-4 hover:bg-gray-100 text-center transition-colors duration-300">
@@ -208,7 +208,7 @@ export function Faq() {
             <div className="-z-10 absolute top-1/2 -translate-y-1/2 w-full h-[0.5px] bg-gray-200"></div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 mt-5">
+          <div className="grid grid-cols-2 gap-4 mt-10">
             <div className="border border-border space-y-6 p-4">
               <div className="text-center">
                 <p className="font-medium mb-2">گفتگوی آنلاین با پشتیبانی</p>
