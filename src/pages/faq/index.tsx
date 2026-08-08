@@ -2,6 +2,10 @@ import { ChevronLeft, Stars } from "lucide-react";
 import { Article } from "../../components/article";
 import { Link } from "react-router-dom";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+
 export function Faq() {
   return (
     <>
@@ -163,8 +167,34 @@ export function Faq() {
             <div className="-z-10 absolute top-1/2 -translate-y-1/2 w-full h-[0.5px] bg-gray-200"></div>
           </div>
 
-          <div>
-            
+          <div className="mt-5">
+            <Swiper spaceBetween={20} slidesPerView={4}>
+              <SwiperSlide>
+                <div className="py-4 hover:bg-gray-100 text-center transition-colors duration-300">
+                  ثبت ویرایش یا ارتقاع آگهی
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="py-4 hover:bg-gray-100 text-center transition-colors duration-300">
+                  کلاهبرداری مزاحمت تخلف
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="py-4 hover:bg-gray-100 text-center transition-colors duration-300">
+                  حساب کاربری چت تماس ناشناس
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="py-4 hover:bg-gray-100 text-center transition-colors duration-300">
+                  نمایش و حستحوی آگهی
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="py-4 hover:bg-gray-100 text-center transition-colors duration-300">
+                  دیوار برای کسب و کارها
+                </div>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
       </section>
