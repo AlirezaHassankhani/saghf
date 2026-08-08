@@ -20,7 +20,7 @@ export function Home() {
   return (
     <>
       <Header />
-      <div className="max-w-xl mx-auto">
+      <div className="max-w-xl mx-auto my-10">
         <img src="/logo.svg" alt="logo" width="60" className="mx-auto" />
 
         <nav className="flex justify-evenly border-b border-border my-8 text-foreground text-sm pb-3">
@@ -40,7 +40,7 @@ export function Home() {
           </p>
         </div>
 
-        <div className="border border-border rounded-md flex items-center pr-2 mb-8">
+        <div className="border border-border focus-within:border-primary transition-colors rounded-md flex items-center pr-2 mb-8">
           <Search size={18} />
           <input
             type="text"
