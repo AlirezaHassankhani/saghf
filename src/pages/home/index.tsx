@@ -1,5 +1,6 @@
 import { Search } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Header } from "../../widgets/header";
 
 const cities = [
   "تهران",
@@ -17,6 +18,7 @@ const cities = [
 export function Home() {
   return (
     <>
+    <Header />
       <div className="max-w-xl mx-auto">
         <img src="/logo.svg" alt="logo" width="60" className="mx-auto" />
 
