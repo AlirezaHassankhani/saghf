@@ -1,11 +1,16 @@
 import { Route, Routes } from "react-router-dom";
 
 import { Home } from "../pages/home";
+import { MainLayout } from "../layouts/MainLayout";
 
 function App() {
   return (
     <Routes>
-      <Route index element={<Home />} />
+      <Route path="" element={<MainLayout />}>
+        <Route index element={<Home />} />
+      </Route>
+
+      <Route path="my-sagf"></Route>
     </Routes>
   );
 }
