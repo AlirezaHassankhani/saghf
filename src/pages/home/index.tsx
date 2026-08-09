@@ -25,16 +25,16 @@ const navItems = [
 
 export function Home() {
   return (
-    <div className="max-w-xl mx-auto">
-      <img src="/logo.svg" alt="logo" width="60" className="mx-auto" />
+    <div className="max-w-xl mx-auto my-10">
+      <img src="/logo.svg" alt="logo" width="60" className="mx-auto" draggable="false" />
 
       <nav className="flex justify-evenly border-b border-border my-8 text-sm font-medium pb-3">
         {navItems.map((item) => (
-          <Link to={item.to} className="text-foreground hover:text-primary">{item.title}</Link>
+          <Link to={item.to} className="hover:text-primary transition-colors duration-200">{item.title}</Link>
         ))}
       </nav>
 
-      <div className="mb-8 text-center text-foreground space-y-2">
+      <div className="mb-8 text-center space-y-2">
         <p className="font-medium">سقف، پایگاه خرید و فروش بی واسطه!</p>
         <p className="text-sm">
           اگه دنبال چیزی هستی، شهرت رو انتخاب کن و تو دسته بندی ها به دنبالش
@@ -43,8 +43,9 @@ export function Home() {
         </p>
       </div>
 
-      <div className="border border-border focus-within:border-primary transition-colors rounded-md flex items-center pr-2 mb-8">
+      <div className="border border-border focus-within:border-primary transition-colors duration-200 rounded-md flex items-center pr-2 mb-8">
         <Search size={18} />
+
         <input
           type="text"
           className="w-full py-2 mr-2 outline-none"
@@ -52,15 +53,15 @@ export function Home() {
         />
       </div>
 
-      <div className="space-y-4 mb-8">
-        <p className="text-center font-medium">شهرهای پربازدید</p>
+      <div className="space-y-4">
+        <p className="text-center font-medium dark:text-white">شهرهای پربازدید</p>
 
         <ul className="flex flex-wrap justify-center font-medium">
           {cities.map((items) => (
             <li className="block w-4/12">
               <Link
                 to="#"
-                className="w-full block text-center p-4 text-foreground hover:text-primary transition-colors"
+                className="w-full block text-center p-4 text-foreground hover:text-primary transition-colors duration-200"
               >
                 {items}
               </Link>

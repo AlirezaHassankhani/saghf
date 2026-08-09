@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @font-face {
   font-family: "Dana";
   src: url("./assets/fonts/Dana/woff2/DanaFaNum-Light.woff2") format("woff2");
@@ -60,16 +62,38 @@
 @theme {
   --font-dana: "Dana", sans-serif;
 
-  --color-background: #ffffff;
-  --color-foreground: #71717a;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
 
-  --color-primary: #a62626;
+  --color-primary: var(--primary);
 
-  --color-border: #e4e4e7;
+  --color-border: var(--border);
 
-  --color-muted: #ffffffd1;
+  --color-muted: var(--muted);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #535362;
+
+  --primary: #a62626;
+
+  --border: #e4e4e7;
+
+  --muted: #ffffffd1;
+}
+
+.dark {
+  --background: #18181b;
+  --foreground: #a1a1aa;
+
+  --primary: #d94a4a;
+
+  --border: #52525b;
+
+  --muted: #ffffff14;
 }
 
 body {
-  font-family: "Dana";
+  @apply font-dana bg-background text-foreground;
 }
