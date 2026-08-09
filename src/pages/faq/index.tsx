@@ -10,7 +10,7 @@ export function Faq() {
   return (
     <>
       <section className="bg-primary dark:bg-red-900 mb-10">
-        <div className="relative max-w-6xl mx-auto">
+        <div className="relative container">
           <div className="space-y-5 max-w-2xl mx-auto py-6">
             <div className="flex items-center gap-2 bg-white/20 rounded-full text-white w-fit px-3 py-1">
               <Stars size={12} />
@@ -18,7 +18,7 @@ export function Faq() {
             </div>
 
             <div>
-              <h3 className="text-white font-semibold text-3xl mb-2">
+              <h3 className="text-white font-semibold text-xl md:text-3xl mb-2">
                 چطور می‌تونم کمکت کنم؟
               </h3>
               <p className="text-muted text-sm">
@@ -55,15 +55,15 @@ export function Faq() {
       </section>
 
       <section className="mb-10">
-        <div className="max-w-6xl mx-auto">
+        <div className="container">
           <div className="relative text-center">
-            <span className="font-semibold text-xl text-black dark:text-white bg-background px-4">
+            <span className="font-semibold text-base md:text-xl text-black dark:text-white bg-background px-4">
               شاید برای شما هم سؤال باشد
             </span>
             <div className="-z-10 absolute top-1/2 -translate-y-1/2 w-full h-[0.5px] bg-gray-200"></div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
             <Article />
             <Article />
             <Article />
@@ -72,15 +72,15 @@ export function Faq() {
       </section>
 
       <section className="mb-10">
-        <div className="max-w-6xl mx-auto">
+        <div className="container">
           <div className="relative text-center">
-            <span className="font-semibold text-xl text-black dark:text-white bg-background px-4">
+            <span className="font-semibold text-base md:text-xl text-black dark:text-white bg-background px-4">
               با دیوار بیشتر آشنا شوید
             </span>
             <div className="-z-10 absolute top-1/2 -translate-y-1/2 w-full h-[0.5px] bg-gray-200"></div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
             <Link to="#">
               <div className="flex items-center justify-between gap-2 border border-border rounded-md p-4 group">
                 <div className="flex items-center gap-4">
@@ -161,9 +161,9 @@ export function Faq() {
       </section>
 
       <section className="mb-10">
-        <div className="max-w-6xl mx-auto">
+        <div className="container">
           <div className="relative text-center">
-            <span className="font-semibold text-xl text-black dark:text-white bg-background px-4">
+            <span className="font-semibold text-base md:text-xl text-black dark:text-white bg-background px-4">
               پرتکرارترین سؤالات کاربران دیوار
             </span>
             <div className="-z-10 absolute top-1/2 -translate-y-1/2 w-full h-[0.5px] bg-gray-200"></div>
@@ -202,15 +202,15 @@ export function Faq() {
       </section>
 
       <section className="mb-10">
-        <div className="max-w-6xl mx-auto">
+        <div className="container">
           <div className="relative text-center">
-            <span className="font-semibold text-xl text-black dark:text-white bg-background px-4">
+            <span className="font-semibold text-base md:text-xl text-black dark:text-white bg-background px-4">
               ارتباط با پشتیبانی دیوار
             </span>
             <div className="-z-10 absolute top-1/2 -translate-y-1/2 w-full h-[0.5px] bg-gray-200"></div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
             <div className="border border-border space-y-6 p-4">
               <div className="text-center">
                 <p className="font-medium mb-2">گفتگوی آنلاین با پشتیبانی</p>
