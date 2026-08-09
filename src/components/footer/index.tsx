@@ -14,7 +14,7 @@ export function Footer() {
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <nav className="flex text-sm font-medium divide-x divide-foreground/30">
             {navItems.map((item) => (
-              <Link to={item.to} className="text-foreground hover:text-primary px-4">{item.title}</Link>
+              <Link to={item.to} className="hover:text-primary transition-colors duration-200 px-4">{item.title}</Link>
             ))}
           </nav>
 
