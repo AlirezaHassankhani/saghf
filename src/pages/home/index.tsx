@@ -25,7 +25,7 @@ const navItems = [
 
 export function Home() {
   return (
-    <div className="max-w-xl mx-auto my-10">
+    <div className="max-w-xl px-4 mx-auto my-10">
       <img src="/logo.svg" alt="logo" width="60" className="mx-auto" draggable="false" />
 
       <nav className="flex justify-evenly border-b border-border my-8 text-sm font-medium pb-3">
