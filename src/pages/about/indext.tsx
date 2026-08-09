@@ -6,8 +6,8 @@ export function About() {
       <section className="mt-10">
         <div className="max-w-6xl mx-auto grid grid-cols-2">
           <div>
-            <h3 className="font-semibold text-3xl mb-4">دربارهٔ سقف</h3>
-            <p className="text-foreground">
+            <h3 className="font-semibold text-3xl mb-4 text-black dark:text-white">دربارهٔ سقف</h3>
+            <p>
               سقف از ۲۱ تیر ۱۳۹۱ با هدف خرید و فروش بدون واسطهٔ آنلاین آغاز به
               کار کرد. امتیاز برند سقف توسط شرکت «آگه پردازان هوشمند» (سهامی
               خاص) در همهٔ مراجع قانونی ثبت شده است.
@@ -22,9 +22,9 @@ export function About() {
 
       <section className="mt-10">
         <div className="max-w-6xl mx-auto text-center border-b border-border pb-10">
-          <h3 className="font-medium text-2xl mb-5">کتابچهٔ برند سقف</h3>
+          <h3 className="font-medium text-2xl mb-5 text-black dark:text-white">کتابچهٔ برند سقف</h3>
 
-          <div className="space-y-2 text-foreground mb-5">
+          <div className="space-y-2 mb-5">
             <p>
               پس از دوازده سال فعالیت سقف، حالا ما بخشی از زندگی مردم خوب
               ایران شده‌ایم، آنگونه که حتی در زبان فارسی هم معنای تازه‌ای به
@@ -54,18 +54,18 @@ export function About() {
 
       <section className="mt-10">
         <div className="max-w-6xl mx-auto border-b border-border pb-10">
-          <h3 className="font-medium text-center text-2xl mb-10">
+          <h3 className="font-medium text-center text-2xl mb-10 text-black dark:text-white">
             همکاران تجاری سقف
           </h3>
 
           <div className="grid grid-cols-2 gap-6">
             <div>
-              <div className="flex flex-col items-center gap-2 mb-4">
+              <div className="flex flex-col items-center gap-4 mb-4">
                 <img src="/about-2.svg" alt="about" width="40" />
-                <span className="font-medium">کارنامه</span>
+                <span className="font-medium text-black dark:text-white">کارنامه</span>
               </div>
 
-              <p className="text-center text-foreground text-sm">
+              <p className="text-center text-sm">
                 کارنامه با هدف خلق تجربهٔ کاربری بهتر در خرید و فروش خودرو و
                 به‌عنوان سرویس مکمل سقف، با ارائهٔ خدمات کارشناسی خودرو در محل
                 و فروش سفارشی، آغاز به کار کرد.
@@ -73,12 +73,12 @@ export function About() {
             </div>
 
             <div>
-              <div className="flex flex-col items-center gap-2 mb-4">
+              <div className="flex flex-col items-center gap-4 mb-4">
                 <img src="/about-3.svg" alt="about" width="40" />
-                <span className="font-medium">پیشگامان</span>
+                <span className="font-medium text-black dark:text-white">پیشگامان</span>
               </div>
 
-              <p className="text-center text-foreground text-sm">
+              <p className="text-center text-sm">
                 پیشگامان به‌عنوان شرکتی مستقل در کنار سقف همکاری می‌کند و
                 به‌نوعی بازوی اصلی پشتیبانی از کاربران سقف و پل ارتباط نزدیک
                 با آن‌هاست.
@@ -98,11 +98,11 @@ export function About() {
 
       <section className="mt-10">
         <div className="max-w-6xl mx-auto border-b border-border pb-10">
-          <h3 className="font-medium text-center text-2xl mb-5">
+          <h3 className="font-medium text-center text-2xl mb-5 text-black dark:text-white">
             فرصت‌های شغلی
           </h3>
 
-          <p className="text-foreground text-center">
+          <p className="text-center">
             اینجا سقف است؛ جایی برای رشد و یادگیری و خلق ایده‌های جدید. در
             سقف، با هم تجربه می‌کنیم، برای چالش‌ها راه‌حل پیدا می‌کنیم و بر
             سبک زندگی میلیون‌ها نفر تأثیر می‌گذاریم. برای پیوستن به سقف،
@@ -121,11 +121,11 @@ export function About() {
 
       <section className="mt-10">
         <div className="max-w-6xl mx-auto border-b border-border pb-10">
-          <h3 className="font-medium text-center text-2xl mb-5">
+          <h3 className="font-medium text-center text-2xl mb-5 text-black dark:text-white">
             درگاه تأمین خدمات و کالا به شرکت آگه‌پردازان
           </h3>
 
-          <p className="text-foreground text-center">
+          <p className="text-center">
             درگاه تأمین‌کنندگان سقف با هدف تسهیل، تسریع و شفاف‌سازی فرآیندهای
             خرید کالا و خدمات، و برگزاری معاملات راه‌اندازی شده است. این سامانه
             بستری یکپارچه برای مدیریت بهتر درخواست‌ها، ارتباط با تأمین‌کنندگان و
@@ -144,11 +144,11 @@ export function About() {
 
       <section className="mt-10">
         <div className="max-w-6xl mx-auto">
-          <h3 className="font-medium text-center text-2xl mb-5">
+          <h3 className="font-medium text-center text-2xl mb-5 text-black dark:text-white">
             ارتباط با سقف
           </h3>
 
-          <div className="text-center text-foreground space-y-2">
+          <div className="text-center space-y-2">
             <p>
               مشکلات سقف یا انتقادها و پیشنهادهای خود را به پشتیبانی سقف
               بگویید.
@@ -165,7 +165,7 @@ export function About() {
             <p>صندوق پستی: ۶۰۰۵۰-۱۹۸۳۹</p>
           </div>
 
-          <div className="bg-pink-100 rounded-lg p-4 my-10">
+          <div className="bg-pink-100 dark:bg-pink-950 rounded-lg p-4 my-10">
             تیم‌های فنی ما در این آدرس هستند، اما متأسفانه نمی‌توانیم پذیرای
             مراجعان حضوری باشیم.
           </div>
