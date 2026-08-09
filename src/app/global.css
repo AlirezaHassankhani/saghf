@@ -97,3 +97,7 @@
 body {
   @apply font-dana bg-background text-foreground;
 }
+
+@utility container {
+  @apply max-w-6xl px-2 sm:px-4 md:px-8 mx-auto;
+}
