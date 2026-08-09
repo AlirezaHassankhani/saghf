@@ -1,4 +1,4 @@
-import { HelpCircle, User } from "lucide-react";
+import { HelpCircle, LocationEdit, User } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export function Header() {
@@ -6,11 +6,22 @@ export function Header() {
     <>
       <header className="sticky z-40 inset-0 w-full bg-background dark:shadow-white/5 shadow-sm">
         <div className="max-w-6xl mx-auto flex justify-between items-center py-2">
-          <Link to="/">
-            <img src="/logo.svg" alt="logo" width="40" />
-          </Link>
+          <div className="flex items-center gap-2">
+            <Link to="/">
+              <img src="/logo.svg" alt="logo" width="50" />
+            </Link>
 
-          <nav className="flex gap-2">
+            <div className="min-w-px min-h-4 bg-border">h</div>
+
+            <Link to="#">
+              <div className="flex items-center gap-2 p-3 rounded-md hover:bg-gray-100 hover:text-primary dark:hover:bg-white/10 dark:hover:text-white transition-colors duration-200">
+                <LocationEdit size={18} />
+                <span className="text-sm font-medium">انتخاب شهر</span>
+              </div>
+            </Link>
+          </div>
+
+          <nav className="flex items-center gap-2">
             <Link to="#">
               <div className="flex items-center gap-2 p-3 rounded-md hover:bg-gray-100 hover:text-primary dark:hover:bg-white/10 dark:hover:text-white transition-colors duration-200">
                 <User size={18} />
@@ -23,6 +34,12 @@ export function Header() {
                 <HelpCircle size={18} />
                 <span className="text-sm font-medium">پشتیبانی</span>
               </div>
+            </Link>
+
+            <Link to="#">
+              <span className="text-white bg-primary hover:bg-primary/90 transition-colors duration-200 px-3 py-2 rounded-md">
+                ثبت آگهی
+              </span>
             </Link>
           </nav>
         </div>
