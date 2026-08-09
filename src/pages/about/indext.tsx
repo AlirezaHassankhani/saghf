@@ -4,10 +4,10 @@ export function About() {
   return (
     <>
       <section className="mt-10">
-        <div className="max-w-6xl mx-auto grid grid-cols-2">
+        <div className="container grid grid-cols-1 md:grid-cols-2">
           <div>
-            <h3 className="font-semibold text-3xl mb-4 text-black dark:text-white">دربارهٔ سقف</h3>
-            <p>
+            <h3 className="font-semibold max-md:text-center text-2xl md:text-3xl mb-4 text-black dark:text-white">دربارهٔ سقف</h3>
+            <p className="text-justify max-md:text-center">
               سقف از ۲۱ تیر ۱۳۹۱ با هدف خرید و فروش بدون واسطهٔ آنلاین آغاز به
               کار کرد. امتیاز برند سقف توسط شرکت «آگه پردازان هوشمند» (سهامی
               خاص) در همهٔ مراجع قانونی ثبت شده است.
@@ -21,8 +21,8 @@ export function About() {
       </section>
 
       <section className="mt-10">
-        <div className="max-w-6xl mx-auto text-center border-b border-border pb-10">
-          <h3 className="font-medium text-2xl mb-5 text-black dark:text-white">کتابچهٔ برند سقف</h3>
+        <div className="container text-center border-b border-border pb-10">
+          <h3 className="font-medium text-xl md:text-2xl mb-5 text-black dark:text-white">کتابچهٔ برند سقف</h3>
 
           <div className="space-y-2 mb-5">
             <p>
@@ -53,12 +53,12 @@ export function About() {
       </section>
 
       <section className="mt-10">
-        <div className="max-w-6xl mx-auto border-b border-border pb-10">
-          <h3 className="font-medium text-center text-2xl mb-10 text-black dark:text-white">
+        <div className="container border-b border-border pb-10">
+          <h3 className="font-medium text-center text-xl md:text-2xl mb-10 text-black dark:text-white">
             همکاران تجاری سقف
           </h3>
 
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <div className="flex flex-col items-center gap-4 mb-4">
                 <img src="/about-2.svg" alt="about" width="40" />
@@ -97,8 +97,8 @@ export function About() {
       </section>
 
       <section className="mt-10">
-        <div className="max-w-6xl mx-auto border-b border-border pb-10">
-          <h3 className="font-medium text-center text-2xl mb-5 text-black dark:text-white">
+        <div className="container border-b border-border pb-10">
+          <h3 className="font-medium text-center text-xl md:text-2xl mb-5 text-black dark:text-white">
             فرصت‌های شغلی
           </h3>
 
@@ -120,8 +120,8 @@ export function About() {
       </section>
 
       <section className="mt-10">
-        <div className="max-w-6xl mx-auto border-b border-border pb-10">
-          <h3 className="font-medium text-center text-2xl mb-5 text-black dark:text-white">
+        <div className="container border-b border-border pb-10">
+          <h3 className="font-medium text-center text-xl md:text-2xl mb-5 text-black dark:text-white">
             درگاه تأمین خدمات و کالا به شرکت آگه‌پردازان
           </h3>
 
@@ -143,8 +143,8 @@ export function About() {
       </section>
 
       <section className="mt-10">
-        <div className="max-w-6xl mx-auto">
-          <h3 className="font-medium text-center text-2xl mb-5 text-black dark:text-white">
+        <div className="container">
+          <h3 className="font-medium text-center text-xl md:text-2xl mb-5 text-black dark:text-white">
             ارتباط با سقف
           </h3>
 
@@ -165,7 +165,7 @@ export function About() {
             <p>صندوق پستی: ۶۰۰۵۰-۱۹۸۳۹</p>
           </div>
 
-          <div className="bg-pink-100 dark:bg-pink-950 rounded-lg p-4 my-10">
+          <div className="bg-pink-100 dark:bg-pink-950 rounded-lg p-4 my-10 text-justify">
             تیم‌های فنی ما در این آدرس هستند، اما متأسفانه نمی‌توانیم پذیرای
             مراجعان حضوری باشیم.
           </div>
