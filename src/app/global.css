@@ -70,6 +70,8 @@
   --color-border: var(--border);
 
   --color-muted: var(--muted);
+
+  --container-8xl: 1440px;
 }
 
 :root {
