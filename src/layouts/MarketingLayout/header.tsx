@@ -1,4 +1,4 @@
-import { HelpCircle, LocationEdit, User } from "lucide-react";
+import { HelpCircle, User } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export function Header() {

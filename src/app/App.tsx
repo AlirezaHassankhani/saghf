@@ -4,6 +4,7 @@ import { MarketingLayout } from "../layouts/MarketingLayout";
 import { Home } from "../pages/home";
 import { Faq } from "../pages/faq";
 import { About } from "../pages/about/indext";
+import { MainLayout } from "../layouts/MainLayout";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         <Route path="about" element={<About />} />
       </Route>
 
-      <Route path="my-sagf"></Route>
+      <Route path="my-saghf" element={<MainLayout />}>
+        
+      </Route>
     </Routes>
   );
 }

@@ -5,7 +5,7 @@ export function Header() {
   return (
     <>
       <header className="sticky z-40 inset-0 w-full bg-background dark:shadow-white/5 shadow-sm">
-        <div className="container flex justify-between items-center py-2">
+        <div className="max-w-7xl mx-auto flex justify-between items-center py-2">
           <div className="flex items-center gap-2">
             <Link to="/">
               <img src="/logo.svg" alt="logo" width="50" />
