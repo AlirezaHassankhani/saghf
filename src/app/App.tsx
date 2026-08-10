@@ -5,6 +5,7 @@ import { Home } from "../pages/home";
 import { Faq } from "../pages/faq";
 import { About } from "../pages/about/indext";
 import { MainLayout } from "../layouts/MainLayout";
+import { MySaghf } from "../pages/my-saghf";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       </Route>
 
       <Route path="my-saghf" element={<MainLayout />}>
-        
+        <Route index element={<MySaghf />} />
       </Route>
     </Routes>
   );
