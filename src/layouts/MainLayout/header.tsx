@@ -10,6 +10,15 @@ export function Header() {
             <Link to="/">
               <img src="/logo.svg" alt="logo" width="50" />
             </Link>
+
+            <div className="min-w-px min-h-4 bg-border"></div>
+
+            <Link to="#">
+              <div className="flex items-center gap-2 p-3 rounded-md hover:bg-gray-100 hover:text-primary dark:hover:bg-white/10 dark:hover:text-white transition-colors duration-200">
+                <LocationEdit size={18} />
+                <span className="text-sm font-medium max-lg:hidden">انتخاب شهر</span>
+              </div>
+            </Link>
           </div>
 
           <nav className="flex items-center gap-2">
