@@ -1,8 +1,8 @@
 import { Outlet } from "react-router-dom";
-import { Footer } from "../components/footer";
-import { Header } from "../components/header";
+import { Footer } from "./footer";
+import { Header } from "./header";
 
-export function MainLayout() {
+export function MarketingLayout() {
   return (
     <>
       <Header />
