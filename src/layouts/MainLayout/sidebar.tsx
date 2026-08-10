@@ -56,7 +56,7 @@ export function Sidebar() {
 
       <div className="space-y-6 border-b border-border pb-6 mb-6">
         <h6 className="text-black dark:text-white font-medium">
-          قیمت <span className="text-gray-400 mr-2">(تومان)</span>
+          قیمت <span className="text-foreground mr-2">(تومان)</span>
         </h6>
 
         <div>
