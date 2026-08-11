@@ -9,7 +9,7 @@ export function MainLayout() {
       <main className="relative min-h-screen bg-background">
         <div className="relative z-10 h-full">
           <div className="flex h-full max-w-8xl mx-auto px-4">
-            <div className="w-3xs">
+            <div className="w-3xs max-xl:hidden">
               <Sidebar />
             </div>
 
