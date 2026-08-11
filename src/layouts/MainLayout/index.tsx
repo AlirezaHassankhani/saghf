@@ -6,12 +6,14 @@ export function MainLayout() {
   return (
     <>
       <Header />
-      <main className="relative h-screen bg-background">
-        <div className="relative z-10 h-full p-4">
-          <div className="flex h-full max-w-8xl mx-auto p-4">
-            <Sidebar />
+      <main className="relative min-h-screen bg-background">
+        <div className="relative z-10 h-full">
+          <div className="flex h-full max-w-8xl mx-auto px-4">
+            <div className="w-3xs">
+              <Sidebar />
+            </div>
 
-            <section className="flex min-w-0 flex-1 flex-col">
+            <section className="flex min-w-0 flex-1 flex-col py-8 pr-8">
               <Outlet />
             </section>
           </div>

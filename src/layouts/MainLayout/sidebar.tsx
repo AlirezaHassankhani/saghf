@@ -36,7 +36,7 @@ const footerItems = [
 
 export function Sidebar() {
   return (
-    <aside className="max-w-3xs">
+    <aside className="fixed w-3xs py-8 h-screen overflow-y-auto scrollbar-none">
       <div className="space-y-6 border-b border-border pb-6 mb-6">
         <h6 className="text-black dark:text-white font-medium">دسته ها</h6>
 
@@ -62,7 +62,10 @@ export function Sidebar() {
         <div>
           <div className="flex items-center gap-4">
             <span>از</span>
-            <input type="text" className="border outline-none p-2 rounded-md w-full" />
+            <input
+              type="text"
+              className="border outline-none p-2 rounded-md w-full"
+            />
           </div>
 
           <div>
@@ -73,7 +76,10 @@ export function Sidebar() {
 
           <div className="flex items-center gap-4">
             <span>تا</span>
-            <input type="text" className="border outline-none p-2 rounded-md w-full" />
+            <input
+              type="text"
+              className="border outline-none p-2 rounded-md w-full"
+            />
           </div>
         </div>
       </div>
@@ -113,7 +119,12 @@ export function Sidebar() {
       <div className="space-y-6 border-b border-border pb-6 mb-6">
         <nav className="flex flex-wrap justify-center text-xs font-medium gap-4">
           {footerItems.map((item) => (
-            <Link to={item.to} className="hover:text-black dark:hover:text-white transition-colors duration-200">{item.title}</Link>
+            <Link
+              to={item.to}
+              className="hover:text-black dark:hover:text-white transition-colors duration-200"
+            >
+              {item.title}
+            </Link>
           ))}
         </nav>
 
