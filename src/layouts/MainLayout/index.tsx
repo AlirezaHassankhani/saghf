@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "./header";
 import { Sidebar } from "./sidebar";
+import { Tabbar } from "./tabbar";
 
 export function MainLayout() {
   return (
@@ -19,6 +20,8 @@ export function MainLayout() {
           </div>
         </div>
       </main>
+
+      <Tabbar />
     </>
   );
 }
