@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function Product() {
   return (
     <Link to="#">
-      <div className="flex items-center justify-between gap-4 border border-border rounded-md p-3 group">
+      <div className="flex items-center justify-between gap-4 border-b md:border border-border rounded-md pb-4 md:p-3 group">
         <div className="space-y-4">
           <p className="font-medium text-black dark:text-white">
            کفش اسپرت رنگ نارنجی
@@ -18,7 +18,7 @@ export function Product() {
           </div>
         </div>
 
-        <div className="size-34 rounded-md overflow-hidden">
+        <div className="shrink-0 size-34 rounded-md overflow-hidden">
           <img src="/test-prduct.jpg" alt="product" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-200" />
         </div>
       </div>

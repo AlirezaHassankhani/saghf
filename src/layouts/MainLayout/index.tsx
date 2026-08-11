@@ -13,7 +13,7 @@ export function MainLayout() {
               <Sidebar />
             </div>
 
-            <section className="flex min-w-0 flex-1 flex-col py-8 pr-8">
+            <section className="flex min-w-0 flex-1 flex-col py-8 xl:pr-8">
               <Outlet />
             </section>
           </div>
