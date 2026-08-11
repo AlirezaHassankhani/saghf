@@ -1,6 +1,6 @@
 import { LocationEdit, Search } from "lucide-react";
 
-export function MobileHeader() {
+export function MobileHeader({ isTop }: { isTop: boolean }) {
   return (
     <>
       <div className="flex items-center border border-border focus-within:border-primary transition-colors duration-200 rounded-md min-w-full group">
@@ -14,10 +14,12 @@ export function MobileHeader() {
         </div>
       </div>
 
-      <div className="relative mt-4">
+      <div className={`relative ${isTop ? "h-6 mt-4" : "h-0"} overflow-hidden transition-all duration-200`}>
         <div className="relative z-10 w-fit flex items-center gap-2 mx-auto px-4 bg-gray-100 dark:bg-background">
           <LocationEdit size={16} />
-          <p className="font-semibold text-foreground">موقعیت: <span className="text-primary">کل ایران</span></p>
+          <p className="font-semibold text-foreground">
+            موقعیت: <span className="text-primary">کل ایران</span>
+          </p>
         </div>
 
         <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 w-full h-[0.5px] bg-gray-300"></div>

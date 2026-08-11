@@ -12,12 +12,12 @@ const items = [
   { to: "/b", title: "نشان ها", svg: <Bookmark size={16} /> },
   { to: "/r", title: "ثبت آگهی", svg: <PlusCircle size={16} /> },
   { to: "/c", title: "چت و تماس", svg: <MessageCircleMore size={16} /> },
-  { to: "/s", title: "دیوار من", svg: <User size={16} /> },
+  { to: "/s", title: "سقف من", svg: <User size={16} /> },
 ];
 
 export function Tabbar() {
   return (
-    <nav className="flex items-center justify-evenly fixed z-40 shadow-md bottom-0 w-full py-4 text-xs sm:text-sm font-medium xl:hidden bg-gray-100 dark:bg-background">
+    <nav className="flex items-center justify-evenly fixed z-40 shadow-md inset-x-0 bottom-0 py-4 text-xs sm:text-sm font-medium xl:hidden bg-gray-100 dark:bg-background">
       {items.map((item) => (
         <NavLink
           to={item.to}
