@@ -3,7 +3,7 @@ import { LocationEdit, Search } from "lucide-react";
 export function MobileHeader() {
   return (
     <>
-      <div className="flex items-center bg-muted border border-gray-400 rounded-md min-w-full group">
+      <div className="flex items-center border border-border focus-within:border-primary transition-colors duration-200 rounded-md min-w-full group">
         <input
           type="text"
           className="w-full outline-none py-2 pr-2 text-sm"
@@ -15,7 +15,7 @@ export function MobileHeader() {
       </div>
 
       <div className="relative mt-4">
-        <div className="relative z-10 w-fit flex items-center gap-2 mx-auto px-4 bg-gray-100">
+        <div className="relative z-10 w-fit flex items-center gap-2 mx-auto px-4 bg-gray-100 dark:bg-background">
           <LocationEdit size={16} />
           <p className="font-semibold text-foreground">موقعیت: <span className="text-primary">کل ایران</span></p>
         </div>

@@ -31,13 +31,13 @@ export function DesktopHeader() {
             <ChevronDown size={18} />
           </button>
 
-          <div className="flex items-center bg-gray-100 rounded-md min-w-md group">
+          <div className="flex items-center border border-border focus-within:text-black dark:focus-within:text-white focus-within:border-primary transition-colors duration-200 rounded-md min-w-md group">
             <input
               type="text"
               className="w-full outline-none py-2 pr-2 text-sm"
               placeholder="جستجو در همهٔ آگهی‌ها"
             />
-            <div className="px-2 py-2 text-foreground group-hover:text-gray-800 transition-colors duration-200">
+            <div className="px-2 py-2 text-foreground group-hover:text-gray-800 dark:group-hover:text-white transition-colors duration-200">
               <Search size={16} />
             </div>
           </div>

@@ -7,6 +7,7 @@ export function MainLayout() {
   return (
     <>
       <Header />
+
       <main className="relative min-h-screen bg-background">
         <div className="relative z-10 h-full">
           <div className="flex h-full max-w-8xl mx-auto px-4">

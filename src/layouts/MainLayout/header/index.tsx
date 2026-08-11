@@ -8,7 +8,7 @@ export function Header() {
         <DesktopHeader />
       </div>
 
-      <div className="xl:hidden bg-gray-100 p-4">
+      <div className="xl:hidden bg-gray-100 dark:bg-background p-4">
         <MobileHeader />
       </div>
     </header>

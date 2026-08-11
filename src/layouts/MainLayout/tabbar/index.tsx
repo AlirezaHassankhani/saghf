@@ -17,7 +17,7 @@ const items = [
 
 export function Tabbar() {
   return (
-    <nav className="flex items-center justify-evenly fixed z-40 shadow-md bottom-0 w-full py-4 text-xs sm:text-sm font-medium xl:hidden bg-gray-100">
+    <nav className="flex items-center justify-evenly fixed z-40 shadow-md bottom-0 w-full py-4 text-xs sm:text-sm font-medium xl:hidden bg-gray-100 dark:bg-background">
       {items.map((item) => (
         <NavLink
           to={item.to}

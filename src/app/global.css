@@ -76,6 +76,7 @@
 
 :root {
   --background: #ffffff;
+
   --foreground: #71717a;
 
   --primary: #a62626;
@@ -91,7 +92,7 @@
 
   --primary: #d83939;
 
-  --border: #52525b;
+  --border: #2f2f3a;
 
   --muted: #ffffffce;
 }
